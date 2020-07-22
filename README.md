@@ -14,11 +14,11 @@ For windows you need to install minge. I personally followed the instructions pr
 Point 3 starts to describe how to install mingw.
 
 After installing mingw and making sure it works you can now run the provided .bat files:
-[make-libcubiomes.bat](../make-libcubiomes.bat) and [make-seedfinder.bat](../make-seedfinder.bat)
+[make-libcubiomes.bat](/make-libcubiomes.bat) and [make-seedfinder.bat](/make-seedfinder.bat)
 These will compile the cubiomes library and the seedfinder.  
-Note:You only need to compile libcubiomes once - afterwards you only need to recompile the seed finder when changes were made there.
-
-You can then move the generated file `libcubiomes.a` where you want, in this case in the parent directory.
+Note: You only need to compile libcubiomes once - afterwards you only need to recompile the seed finder when changes were made there.  
+Running [make-libcubiomes.bat](/make-libcubiomes.bat) should result in a file named libcubiomes.a.
+If it doesn't you have a problem.
 
 ### Linux & Mac
 
