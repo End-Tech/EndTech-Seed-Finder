@@ -42,6 +42,10 @@ void getStrongholds(int64_t *seed, Pos *strongholds, LayerStack *g) {
     }
 }
 
+
+/*
+But 0 does mean Desert_Pyramid
+What is this good for?
 int configToStructureName(StructureConfig config)
 {
     switch (config.seed)
@@ -51,6 +55,11 @@ int configToStructureName(StructureConfig config)
         default:                return 0;
     }
 }
+*/
+
+/*
+already supplied by cubiomes:
+Pos getStructureChunkInRegion(const StructureConfig config, int64_t seed, const int regionX, const int regionZ);
 
 Pos getPyramidPos(int64_t seed, int x, int z)
 {
@@ -67,3 +76,4 @@ Pos getPyramidPos(int64_t seed, int x, int z)
 
     return pos;
 }
+*/

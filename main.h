@@ -14,6 +14,3 @@ struct StructureCount
 {
     int outpostCount;
 };
-
-void checkStructure(int64_t seed, Pos strongholdPos, StructureConfig config, LayerStack g, struct StructureCount *count);
-Pos getPyramidPos(int64_t seed, int x, int z);
