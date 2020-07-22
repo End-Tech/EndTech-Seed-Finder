@@ -4,9 +4,10 @@
 
 # bytecode
 
-.a
-.out
-.exe
+*.a
+*.out
+*.exe
+*.o
 
 # Ignore DS_Store
 .DS_Store
