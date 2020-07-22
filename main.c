@@ -11,10 +11,11 @@ int main()
     LayerStack g = setupGenerator(MC_1_16);
 
     clock_t begin = clock();
-    // int64_t seed = SEED; // Debug seed
+    int64_t seed = SEED; // Debug seed
+    //int64_t seed = INT64_MIN
     int found = 0;
 
-    for (int64_t seed = INT64_MIN; !found; seed++)
+    for (; !found; seed++)
     {
         applySeed(&g, seed);
 
@@ -24,7 +25,7 @@ int main()
         getStrongholds(&randomSeed, &g);
 
         struct StructureCount count = {0};
-        // printf("searching %lld\n", seed);
+        printf("searching %lld\n", seed);
 
         /*
         Loops through the strongholds.

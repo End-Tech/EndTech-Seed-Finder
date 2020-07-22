@@ -4,8 +4,9 @@
 
 # bytecode
 
-libcubiomes.a
-a.out
+.a
+.out
+.exe
 
 # Ignore DS_Store
 .DS_Store
