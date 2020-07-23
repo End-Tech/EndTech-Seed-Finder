@@ -1,6 +1,6 @@
 # EndTech seed finder
 
-## Compilation Instructions
+## Compile Instructions
 
 You need to install the GNU C/C++ compiler onto your local system before starting.
 Depending on your local system you need to setup the GNU compilers differently by installing different things.
@@ -9,7 +9,7 @@ Once again this functions differently on different systems.
 
 ### Windows
 
-For windows you need to install minge. I personally followed the instructions provided by a Visual Studio Code extension:
+For windows you need to install mingw. I personally followed the instructions provided by a Visual Studio Code extension:
 [Here](https://code.visualstudio.com/docs/cpp/config-mingw)
 Point 3 starts to describe how to install mingw.
 
