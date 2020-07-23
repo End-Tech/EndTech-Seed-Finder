@@ -1,3 +1,4 @@
 [submodule "cubiomes"]
 	path = cubiomes
 	url = https://github.com/End-Tech/cubiomes
+	ignore = untracked
