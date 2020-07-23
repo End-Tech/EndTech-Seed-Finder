@@ -9,8 +9,3 @@
 #include "search.c"
 #include <stdio.h>
 #include <time.h>
-
-struct StructureCount
-{
-    int outpostCount;
-};
