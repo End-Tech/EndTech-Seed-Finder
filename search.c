@@ -18,7 +18,9 @@ void checkStructure(int64_t seed, Pos strongholdPos, StructureConfig config, Lay
     Pos regionPositions[4];
     regionPositions[0] = originalRegionPos;
     int size = 1;
-    int type = configToStructureName(config);
+    // The type isnt used further down the line
+    // ..whats the purpose of this code?
+    //int type = configToStructureName(config);
 
     // X axis
     if (floor((strongholdPos.x + CHUNKS_FROM_PORTAL) / config.regionSize) != originalRegionPos.x)
