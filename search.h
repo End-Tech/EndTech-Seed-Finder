@@ -5,3 +5,8 @@
 
 // 12 chunks. Limit would be 16, but as we can't calculate the exact position fo the portal room (too expensive), we remove 4 chunks to be sure.
 #define CHUNKS_FROM_PORTAL 16 //192
+
+struct StructureCount
+{
+    int outpostCount;
+};
