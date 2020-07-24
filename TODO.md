@@ -7,21 +7,24 @@ So far we have
 ## Generation Tasks
 
 Generation tasks encompass all tasks that are directly related to doing calculations that will reveal something about the generated seed.
+It seems to me like the best course of action would be to maintain the generation functionality within a seperate cubiomes repository that EndTech maintains.
+[See EndTech Cubiomes repository for more info on that.](https://github.com/End-Tech/cubiomes/tree/master)
 
 ### Finished Generation Tasks
 
 - Make Stronghold generation
 - Make Biome generation
+- Make Desert Temples potential generation and verifier
+- Make Witch Hut potential generation and verifier
+- Make Monuments potential generation
+- Make Village potential generation and verifier
 
 ### TODO Generation Tasks
 
-- Make Desert Temples potential generation
-- Make Witch Hut potential generation
-- Make Monuments potential generation
-- Make Outpost generation (needs further code reviewing)
-- Make Village generation (needs further code reviewing)
+- Make Monuments verifier
+- Make Outpost generation and verifier
 - Make Slime Chunks generation
-- Make Fortress generation
+- Make Fortress potential generation and verifier
 
 ## Search Tasks
 
