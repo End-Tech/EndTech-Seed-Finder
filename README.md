@@ -1,5 +1,10 @@
 # EndTech seed finder
 
+## Project Archived
+
+Due to the fact that the cubiomes library just updated to 1.15 and is still taking its time to update to 1.16 we decided to archive this project.
+Thanks to everyone working on it in the background :)
+
 ## Compile Instructions
 
 You need to install the GNU C/C++ compiler onto your local system before starting.
